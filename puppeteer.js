@@ -2,7 +2,7 @@ var path = require('path');
 var childProcess = require('child_process');
 
 var address = 'http://google.com';
-var foldername = 'sample'; //path.join(__dirname, 'tmp');
+var foldername = 'sample';
 
 var childArgs = [
 	path.join(__dirname, 'puppeteer-script.js'),
